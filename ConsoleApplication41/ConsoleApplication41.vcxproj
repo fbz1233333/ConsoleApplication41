@@ -18,6 +18,195 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="DataStruct.cpp" />
+    <ClCompile Include="Effect.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Face.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Material.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Renderer3D.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="RenderList.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Root.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp" />
+    <ClCompile Include="Texture2D.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp" />
+    <ClCompile Include="Vertex.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="DataStruct.h" />
+    <ClInclude Include="Effect.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Face.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="gl.h" />
+    <ClInclude Include="glm.h" />
+    <ClInclude Include="Log.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Renderer3D.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="RenderList.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Root.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="std.h" />
+    <ClInclude Include="Texture2D.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Transform.h" />
+    <ClInclude Include="Vertex.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="sss..ss..s.s.txt" />
+    <Text Include="text.sf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assimp-vc141-mtd.dll" />
+    <None Include="car1.mtl" />
+    <None Include="color.fs">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="game\Game.gm" />
+    <None Include="glsl\color.fs" />
+    <None Include="glsl\model.fs" />
+    <None Include="glsl\model.vs" />
+    <None Include="glsl\no_shadow.fs" />
+    <None Include="glsl\no_shadow.vs" />
+    <None Include="rs\car1.mtl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="car1.obj">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rs\car1.obj">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{E5F086E5-5428-4524-AA1E-575F8B727FC0}</ProjectGuid>
@@ -65,9 +254,11 @@
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="C:\Users\h'p\Desktop\PropertySheet.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="C:\Users\h'p\Desktop\PropertySheet.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -150,9 +341,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="ConsoleApplication41.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

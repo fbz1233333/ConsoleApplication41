@@ -1,22 +1,230 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="源文件">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Common">
+      <UniqueIdentifier>{42e35d26-28e4-4718-b4ad-a449eecde75b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="头文件">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="Core">
+      <UniqueIdentifier>{700a5c41-1eab-4a1d-824e-66763b0f826a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="资源文件">
+    <Filter Include="resources">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="resources\mdl">
+      <UniqueIdentifier>{4148e68d-fbbf-42ed-aef4-d891f9e09766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\msh">
+      <UniqueIdentifier>{e1fe12f8-b504-4b94-ad90-9a62ed692ca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\stdafx">
+      <UniqueIdentifier>{861a1047-7fb1-4eb3-b837-ced0dc9015ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\glsl">
+      <UniqueIdentifier>{a7fdc05e-70c2-4b48-9452-90f74adebd81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\game">
+      <UniqueIdentifier>{5c80a4bd-97ef-4bd4-9bb8-4a2ee87c6f2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\game">
+      <UniqueIdentifier>{8fb7b926-35f8-486f-a26d-363040acb3ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\rs">
+      <UniqueIdentifier>{80dabf81-e794-4425-bd73-2e5ff10e2a83}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ConsoleApplication41.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="DataStruct.cpp">
+      <Filter>Common</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Face.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderList.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Core\game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Core\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Core\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Core\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Root.cpp">
+      <Filter>Core\game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Core\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>Core\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Core\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer3D.cpp">
+      <Filter>Core\game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataStruct.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Face.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="glm.h">
+      <Filter>Core\stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="std.h">
+      <Filter>Core\stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="gl.h">
+      <Filter>Core\stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderList.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Core\game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Core\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Core\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Core\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Root.h">
+      <Filter>Core\game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Core\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Core\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Core\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer3D.h">
+      <Filter>Core\game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="text.sf">
+      <Filter>resources</Filter>
+    </Text>
+    <Text Include="sss..ss..s.s.txt">
+      <Filter>resources</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assimp-vc141-mtd.dll">
+      <Filter>Core</Filter>
+    </None>
+    <None Include="car1.mtl">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="car1.obj" />
+    <None Include="glsl\model.vs">
+      <Filter>resources\glsl</Filter>
+    </None>
+    <None Include="game\Game.gm">
+      <Filter>resources\game</Filter>
+    </None>
+    <None Include="rs\car1.mtl">
+      <Filter>resources\rs</Filter>
+    </None>
+    <None Include="glsl\no_shadow.fs">
+      <Filter>resources\glsl</Filter>
+    </None>
+    <None Include="glsl\no_shadow.vs">
+      <Filter>resources\glsl</Filter>
+    </None>
+    <None Include="glsl\model.fs">
+      <Filter>resources\glsl</Filter>
+    </None>
+    <None Include="color.fs">
+      <Filter>resources\glsl</Filter>
+    </None>
+    <None Include="glsl\color.fs">
+      <Filter>resources\glsl</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="rs\car1.obj">
+      <Filter>resources\rs</Filter>
+    </Object>
   </ItemGroup>
 </Project>
